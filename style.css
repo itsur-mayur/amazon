@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* header-1 */
+.nav-1 {
+    width: 100vw;
+    height: 10vh;
+    background-color: #141920;
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+
+
+/*  div-1 ----> nav-1 */
+.nav-1-div-1 {
+    display: flex;
+    width: 23%;
+    height: 100%;
+
+}
+
+.nav-1-div-1-subdiv-1 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-1-div-1-subdiv-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-1-div-1-subdiv-2 {
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-1-div-1-subdiv-2-location {
+    display: flex;
+    align-items: center;
+    width: 10%;
+
+}
+
+.nav-1-div-1-subdiv-2-location img {
+    width: 100%;
+    height: 45%;
+}
+
+.nav-1-div-1-subdiv-2-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-1-div-1-subdiv-2-text p {
+    font-size: smaller;
+
+}
+
+.nav-1-div-1-subdiv-2-text p span {
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+
+/*   div-2 ----> nav-1 */
+.nav-1-div-2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-1-div-2-mainbox {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-1-div-2-subdiv-1 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(244, 244, 244);
+    background-color: rgb(226, 228, 228);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color:black;
+
+}
+
+.nav-1-div-2-subdiv-2 {
+    width: 85%;
+    height: 100%;
+    /* justify-content: center; */
+    display: flex;
+    border: 2px solid rgb(244, 244, 244);
+    background-color: white;;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-1-div-2-subdiv-3 {
+    width: 5%;
+    height: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-1-div-2-subdiv-3 img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+/* div-3 ---->  nav1 */
+.nav-1-div-3 {
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-1-div-3-subdiv-1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-1-div-3-subdiv-1-india {
+    width: 50%;
+}
+
+.nav-1-div-3-subdiv-1-india img {
+    width: 80%;
+}
+
+.nav-1-div-3-subdiv-1-india-text {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nav-1-div-3-subdiv-2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-1-div-3-subdiv-2 p {
+    font-size: small;
+}
+
+.nav-1-div-3-subdiv-2 p span {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nav-1-div-3-subdiv-3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-1-div-3-subdiv-2 p {
+    font-size: small;
+}
+
+.nav-1-div-3-subdiv-2 p span {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nav-1-div-3-subdiv-4 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-1-div-3-subdiv-3 p span{
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-1-div-3-subdiv-4-cart {
+    width: 50%;
+    height: 100%;
+
+}
+
+.nav-1-div-3-subdiv-4-cart img {
+    width: 100%;
+    height: 90%;
+}
+
+.nav-1-div-3-subdiv-4-text {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+/* header-2 */
+.nav-2{
+    color: white;
+    background-color: #131f31;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    padding-left: 20px;
+    padding-right:20px;
+    justify-content: space-between;
+}
+
+
+/*  div 1 ---->nav-2 */
+.nav-2-div-1{
+    display:flex;
+    width:70%;
+    height:100%;
+}
+.nav-2-div-1-subdiv-1 ,
+.nav-2-div-1-subdiv-2  
+{
+    width:8%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-2-div-1-subdiv-3,
+.nav-2-div-1-subdiv-7 ,
+.nav-2-div-1-subdiv-8 ,
+.nav-2-div-1-subdiv-10,.nav-2-div-1-subdiv-6,
+.nav-2-div-1-subdiv-4,.nav-2-div-1-subdiv-6{
+    width:12%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-2-div-1-subdiv-11{
+    width:11%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-2-div-1-subdiv-5,.nav-2-div-1-subdiv-6{
+    width:14%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-2-div-1-subdiv-9 {
+    width:17%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* div-2  ----> nav-2 */
+.nav-2-div-2{
+    width:30%;
+    height:100%;
+
+}
+.nav-2-div-2 img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/* hover effect --------> header(1 & 2)     */
+.nav-1-div-1-subdiv-1:hover,
+.nav-1-div-1-subdiv-2:hover,
+.nav-1-div-2-subdiv-1:hover,
+.nav-1-div-2-subdiv-3:hover,
+.nav-1-div-2-subdiv-2:hover,
+.nav-1-div-3-subdiv-1:hover,
+.nav-1-div-3-subdiv-2:hover,
+.nav-1-div-3-subdiv-3:hover,
+.nav-1-div-3-subdiv-4:hover,
+.nav-2-div-1-subdiv-1:hover,
+.nav-2-div-1-subdiv-2:hover,
+.nav-2-div-1-subdiv-3:hover,
+.nav-2-div-1-subdiv-4:hover,
+.nav-2-div-1-subdiv-5:hover,
+.nav-2-div-1-subdiv-6:hover,
+.nav-2-div-1-subdiv-7:hover,
+.nav-2-div-1-subdiv-8:hover,
+.nav-2-div-1-subdiv-9:hover,
+.nav-2-div-1-subdiv-10:hover,
+.nav-2-div-1-subdiv-11:hover,
+.nav-2-div-2:hover{
+    border:2px solid white
+}
+
+
+.nav-1-div-3-subdiv-3 a,
+.nav-2-div-1-subdiv-1 a,
+.nav-2-div-1-subdiv-2 a,
+.nav-2-div-1-subdiv-3 a,
+.nav-2-div-1-subdiv-4 a,
+.nav-2-div-1-subdiv-5 a,
+.nav-2-div-1-subdiv-6 a,
+.nav-2-div-1-subdiv-7 a,
+.nav-2-div-1-subdiv-8 a,
+.nav-2-div-1-subdiv-9 a,
+.nav-2-div-1-subdiv-10 a,
+.nav-2-div-1-subdiv-11 a,
+.nav-2-div-2 a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* main-1 -----> interface of amazon; like deal of day poster , amazaon great indian festival banner */
+.main-1{
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+}
+.main-1-img-1{
+    width:100%;
+    height:100%;
+    height:40vh;
+
+}
+.main-1-img-1 img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+
+
+
+/* main-2 ----------> content of amazon website */
+
+.main-2{
+    
+    background-color: rgb(200, 203, 203);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 100vw;
+    height:200vh;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:1rem;
+    padding-bottom: 2rem;
+    
+}
+.main-2-div-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-2-div-5 img{
+    width:100%;
+    height:100%;
+}
+.main-2-div-1,.main-2-div-2,.main-2-div-3,.main-2-div-4,.main-2-div-5,.main-2-div-6,.main-2-div-7,.main-2-div-8{
+    background-color: white;
+}
+.main-2-div-1-subdiv-1{
+    height:10%;
+    display: flex;
+    align-items: center;
+}
+.main-2-div-1-subdiv-2{
+    height:80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.main-2-div-1-subdiv-3{
+    height:10%;
+    
+    display: flex;
+    align-items: center;
+}
+.main-2-div-1-subdiv-2-box-1-photo{
+    height:90%;
+    width:100%
+}
+.main-2-div-1-subdiv-2-box-1-photo a img{
+    width:100%;
+    height:100%;
+    
+}
+.main-2-div-1-subdiv-2-box-1-text{
+    height:10%;
+}
+
+
+
+
+
+
+
+
+
+/* main-3   -----> content of website */
+.main-3{
+    background-color: rgb(200, 203, 203);
+    display:flex;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    width: 100vw;
+    height:140vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main-3-div-1{
+    width:100%;
+    height:33%;
+    
+    
+
+}
+.main-3-div-1-box-1{
+    width: 100%;
+    height:15%;
+    background-color: white;
+    
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+    padding:5px;
+}
+
+.main-3-div-1-box-2{
+    width:100%;
+    height:85%;
+    background-color: white;
+    display: flex;
+    overflow-x: auto;
+    
+}
+.main-3-div-1-subdiv-1{
+    min-width:15%;
+    height:100%;
+    
+    margin-left:10px;
+
+}
+.main-3-div-1-subdiv-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.main-3-div-2{
+    width:100%;
+    justify-self: center;
+    /* border:2px solid red; */
+    display:flex;
+    width:80%;
+    height:33%;
+    justify-content:center; 
+     align-items: center;
+     background-color: white;
+     
+    
+}
+.main-3-div-2-subdiv-1{
+    width:10%;
+    height: 80%;
+}
+.main-3-div-2-subdiv-1 img{
+    width: 100%;
+    height:100%;
+}
+.main-3-div-2-subdiv-2{
+    width:60%;
+    height:70%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-3-div-2-subdiv-2-text{
+    width:90%;
+    height:70%;
+}
+.main-3-div-2-subdiv-2-text p{
+    font-size:x-large;
+}
+.main-3-div-2-subdiv-2-text span p{
+    background-color: rgb(242, 37, 37);
+    color:white;
+    font-weight:bolder;
+    width:20%;
+    height:25%;
+    padding:1px;
+/* : 0px 0px 0px rgb(242, 37, 37) ; */
+}
+.main-3-div-2-subdiv-2-text p span {
+    color:red;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+
+/*   div-1 -----> footer */
+.footer-1-div-1{
+    background-color: #19283e;
+width:100vw;
+height:5vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: x-large;
+}
+.footer-1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-1-div-1:hover{
+    background-color:#19283eea ;
+}
+
+
+
+.footer-2{
+    color: white;
+    width: 100vw;
+    height:70vh;
+    background-color: #131f31;
+}
+
+
+
+
+
+
+
+.footer-2-div-1{
+    display: flex;
+    justify-content:space-evenly;
+    height: 90%;
+
+   
+
+}
+.footer-2-div-2{
+    height: 10%;
+}
+
+.footer-2-div-1subdiv-1 p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: larger;
+}
+.footer-2-div-1subdiv-1 ul{
+    line-height: 30px;
+    
+    list-style-type:none;
+}
+
+.footer-2-div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
